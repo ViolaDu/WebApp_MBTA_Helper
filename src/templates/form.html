@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find The Nearest Satation</title>
+</head>
+<body>
+<h1>Find The Nearest Satation</h1>
+<form method="POST" name="Find The Nearest Station">
+    {% if error %}
+    <p style='color:red'>This equation does not have real number solution.</p>
+    {% endif %}
+    <p>
+        Please enter your location:
+    </p>
+    <p>
+        <input type="text" name='a'>
+
+    </p>
+    <p>
+        <input type="submit" value="Magic Happens">
+    </p>
+</form>
+</body>
+</html>
